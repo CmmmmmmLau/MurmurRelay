@@ -20,45 +20,6 @@ plugins {
     id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
 }
 
-// Loom adds remapped repositories at project level. Inject Modrinth into the
-// same repository containers while keeping the declaration centralized here.
-gradle.beforeProject { project ->
-    project.repositories {
-        exclusiveContent {
-            forRepository {
-                maven {
-                    name = 'Modrinth'
-                    url = uri('https://api.modrinth.com/maven')
-                }
-            }
-            filter {
-                includeGroup('maven.modrinth')
-            }
-        }
-        exclusiveContent {
-            forRepository {
-                maven {
-                    url "https://cursemaven.com"
-                }
-            }
-            filter {
-                includeGroup "curse.maven"
-            }
-        }
-        exclusiveContent {
-            forRepository {
-                maven {
-                    name = 'ParchmentMC'
-                    url = uri('https://maven.parchmentmc.org')
-                }
-            }
-            filter {
-                includeGroup('org.parchmentmc.data')
-            }
-        }
-    }
-}
-
 // This should match the folder name of the project, or else IDEA may complain (see https://youtrack.jetbrains.com/issue/IDEA-317606)
 rootProject.name = 'MultiLoader-Template'
 includeBuild('build-logic')
