@@ -8,15 +8,15 @@
         "${mod_author}"
     ],
     "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod"
+        "homepage": "https://github.com/CmmmmmmLau/MurmurRelay",
+        "sources": "https://github.com/CmmmmmmLau/MurmurRelay"
     },
     "license": "${license}",
     "icon": "${mod_id}.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
+            "cmmmmmm.murmur_relay.MurmurRelay"
         ]
     },
     "mixins": [

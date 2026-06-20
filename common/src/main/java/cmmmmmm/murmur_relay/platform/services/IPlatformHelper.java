@@ -1,4 +1,4 @@
-package com.example.examplemod.platform.services;
+package cmmmmmm.murmur_relay.platform.services;
 
 public interface IPlatformHelper {
 

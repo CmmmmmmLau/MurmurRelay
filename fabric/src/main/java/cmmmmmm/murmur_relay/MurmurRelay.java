@@ -1,8 +1,8 @@
-package com.example.examplemod;
+package cmmmmmm.murmur_relay;
 
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleMod implements ModInitializer {
+public class MurmurRelay implements ModInitializer {
 
     @Override
     public void onInitialize() {

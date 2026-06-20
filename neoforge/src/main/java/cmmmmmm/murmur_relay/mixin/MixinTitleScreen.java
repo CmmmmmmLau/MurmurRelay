@@ -1,6 +1,6 @@
-package com.example.examplemod.mixin;
+package cmmmmmm.murmur_relay.mixin;
 
-import com.example.examplemod.Constants;
+import cmmmmmm.murmur_relay.Constants;
 import net.minecraft.SharedConstants;
 import net.minecraft.client.gui.screens.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;

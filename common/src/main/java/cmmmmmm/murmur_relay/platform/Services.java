@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package cmmmmmm.murmur_relay.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import cmmmmmm.murmur_relay.Constants;
+import cmmmmmm.murmur_relay.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 
